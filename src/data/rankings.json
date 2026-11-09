@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "note": "Headline figures and WURI category ranks as published for the 2025 cycle. Verify against the official WURI and HEC releases before go-live."
+  },
+  "ribbon": [
+    {
+      "id": "wuri",
+      "num": "40",
+      "label": "WURI 2025 · Global",
+      "desc": "Ranked #40 in the world for innovation among the universities assessed by WURI 2025."
+    },
+    {
+      "id": "kp",
+      "num": "01",
+      "label": "#1 in Khyber Pakhtunkhwa",
+      "desc": "Top position in Khyber Pakhtunkhwa under the HEC National Skills Competitions & Technology standings, 2026."
+    },
+    {
+      "id": "labs",
+      "num": "20",
+      "label": "Research Units & Labs",
+      "desc": "Centres, labs and innovation units catalysing applied research across Malakand Division."
+    },
+    {
+      "id": "programs",
+      "num": "77",
+      "label": "Degree Programs",
+      "desc": "Seventy-seven programs across seven faculties and thirty departments — from BS to PhD."
+    }
+  ],
+  "deepDive": {
+    "eyebrow": "WURI 2025 · Innovators",
+    "title": "Placed among the world's most innovative universities",
+    "body": "The World's Universities with Real Impact (WURI) ranking measures what universities actually contribute to society. In the 2025 cycle the University of Swat is placed in the global top tier for Visionary Leadership and recognised, again, for Entrepreneurial Spirit — the result of a deliberate turn towards applied research, incubation and regional problem-solving.",
+    "scale": 200,
+    "categories": [
+      { "id": "visionary", "label": "Visionary Leadership", "rank": 40 },
+      { "id": "entrepreneurial", "label": "Entrepreneurial Spirit", "rank": 59 },
+      { "id": "industrial", "label": "Industrial Application", "rank": 82 },
+      { "id": "social", "label": "Social Responsibility", "rank": 105 },
+      { "id": "ethical", "label": "Ethical Value", "rank": 128 }
+    ],
+    "quote": "Innovation, in a mountain region, is not a slogan. It is the difference between exporting talent and exporting solutions.",
+    "quoteAuthor": "Office of Research, Innovation & Commercialisation"
+  }
+}

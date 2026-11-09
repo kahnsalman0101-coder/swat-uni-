@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "note": "Structure reflects the University of Swat faculty architecture at Charbagh campus. Department and program lists are maintained by the Directorate of Academics — verify against the current prospectus before go-live.",
+    "totals": { "faculties": 7, "departments": 30, "programs": 77 }
+  },
+  "faculties": [
+    {
+      "id": "sciences",
+      "index": "01",
+      "name": "Faculty of Sciences",
+      "short": "Sciences",
+      "blurb": "Foundational and applied science teaching with laboratory and field research across Malakand Division.",
+      "tone": "default",
+      "departments": [
+        { "name": "Physics", "programs": ["BS Physics", "MSc Physics", "MPhil Physics", "PhD Physics"] },
+        { "name": "Chemistry", "programs": ["BS Chemistry", "MSc Chemistry", "MPhil Chemistry"] },
+        { "name": "Mathematics", "programs": ["BS Mathematics", "MSc Mathematics", "MPhil Mathematics"] },
+        { "name": "Statistics", "programs": ["BS Statistics", "MSc Statistics", "MPhil Statistics"] },
+        { "name": "Botany", "programs": ["BS Botany", "MPhil Botany"] },
+        { "name": "Zoology", "programs": ["BS Zoology", "MPhil Zoology", "PhD Zoology"] }
+      ]
+    },
+    {
+      "id": "life-sciences",
+      "index": "02",
+      "name": "Faculty of Life Sciences",
+      "short": "Life Sciences",
+      "blurb": "Biotechnology, microbiology, agriculture and environmental research focused on mountain ecosystems.",
+      "tone": "gold",
+      "departments": [
+        { "name": "Biotechnology", "programs": ["BS Biotechnology", "MPhil Biotechnology", "PhD Biotechnology"] },
+        { "name": "Microbiology", "programs": ["BS Microbiology", "MPhil Microbiology", "PhD Microbiology"] },
+        { "name": "Environmental Sciences", "programs": ["BS Environmental Sciences", "MSc Environmental Sciences"] },
+        { "name": "Agriculture Sciences", "programs": ["BS Agriculture", "MSc Agriculture"] }
+      ]
+    },
+    {
+      "id": "computing",
+      "index": "03",
+      "name": "Faculty of Computer Science & IT",
+      "short": "Computing & IT",
+      "blurb": "Software, data and intelligent systems — the fastest-growing faculty in the university.",
+      "tone": "default",
+      "departments": [
+        { "name": "Computer Science", "programs": ["BS Computer Science", "MS Computer Science", "PhD Computer Science"] },
+        { "name": "Software Engineering", "programs": ["BS Software Engineering", "MPhil Software Engineering"] },
+        { "name": "Information Technology", "programs": ["BS Information Technology", "MS Information Technology"] },
+        { "name": "Data Science", "programs": ["BS Data Science", "MS Data Science", "PhD Data Science"] }
+      ]
+    },
+    {
+      "id": "management",
+      "index": "04",
+      "name": "Faculty of Management & Economics",
+      "short": "Management",
+      "blurb": "Business, economics, public administration and finance for the region's enterprise and public sector.",
+      "tone": "default",
+      "departments": [
+        { "name": "Management Sciences", "programs": ["BBA", "MBA", "MS Management Sciences", "PhD Management Sciences"] },
+        { "name": "Economics", "programs": ["BS Economics", "MSc Economics", "MPhil Economics"] },
+        { "name": "Public Administration", "programs": ["BS Public Administration", "Master of Public Administration"] },
+        { "name": "Accounting & Finance", "programs": ["BS Accounting & Finance", "MS Accounting & Finance"] }
+      ]
+    },
+    {
+      "id": "arts-humanities",
+      "index": "05",
+      "name": "Faculty of Arts & Humanities",
+      "short": "Arts & Humanities",
+      "blurb": "Language, literature, theology and the arts — custodians of the valley's cultural record.",
+      "tone": "sage",
+      "departments": [
+        { "name": "English", "programs": ["BS English", "MA English", "MPhil English", "PhD English"] },
+        { "name": "Urdu", "programs": ["BS Urdu", "MA Urdu", "MPhil Urdu"] },
+        { "name": "Pashto", "programs": ["BS Pashto", "MPhil Pashto"] },
+        { "name": "Islamic Studies", "programs": ["BS Islamic Studies", "MA Islamic Studies", "MPhil Islamic Studies"] },
+        { "name": "Fine Arts", "programs": ["BS Fine Arts"] }
+      ]
+    },
+    {
+      "id": "social-sciences",
+      "index": "06",
+      "name": "Faculty of Social Sciences",
+      "short": "Social Sciences",
+      "blurb": "Sociology, politics, psychology, education and media — evidence for public decision-making.",
+      "tone": "default",
+      "departments": [
+        { "name": "Sociology", "programs": ["BS Sociology", "MPhil Sociology"] },
+        { "name": "Political Science", "programs": ["BS Political Science", "MPhil Political Science"] },
+        { "name": "Psychology", "programs": ["BS Psychology", "MS Psychology"] },
+        { "name": "Education", "programs": ["BS Education", "MPhil Education", "PhD Education"] },
+        { "name": "Journalism & Mass Communication", "programs": ["BS Journalism & Mass Communication", "MS Journalism & Mass Communication"] }
+      ]
+    },
+    {
+      "id": "law-health",
+      "index": "07",
+      "name": "Faculty of Law & Health Sciences",
+      "short": "Law & Health",
+      "blurb": "Legal education and public health practice serving the communities of Khyber Pakhtunkhwa.",
+      "tone": "gold",
+      "departments": [
+        { "name": "Law", "programs": ["LLB", "LLM"] },
+        { "name": "Public Health", "programs": ["BS Public Health", "MS Public Health"] }
+      ]
+    }
+  ]
+}

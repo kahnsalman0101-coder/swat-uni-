@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "note": "Documents are served from /public/downloads. Replace the sample PDFs with the official Registrar Office releases."
+  },
+  "meritBanner": {
+    "status": "Live",
+    "title": "Final Merit List Fall 2026 (Self Finance)",
+    "note": "Published by the Directorate of Admissions. Objections may be filed within three working days of publication.",
+    "href": "/downloads/final-merit-list-fall-2026-self-finance.pdf",
+    "label": "Download PDF"
+  },
+  "downloads": [
+    {
+      "id": "merit-list",
+      "kind": "Merit List",
+      "title": "Final Merit List Fall 2026 — Self Finance",
+      "meta": "PDF · Merit list · Updated 12 Oct 2026",
+      "href": "/downloads/final-merit-list-fall-2026-self-finance.pdf"
+    },
+    {
+      "id": "prospectus",
+      "kind": "Prospectus",
+      "title": "Admission Prospectus & Eligibility Criteria 2026",
+      "meta": "PDF · 77 programs · Updated 15 Jul 2026",
+      "href": "/downloads/admission-prospectus-2026.pdf"
+    },
+    {
+      "id": "fee-structure",
+      "kind": "Fee Structure",
+      "title": "Fee Structure 2026–27 (Standard & Self Finance)",
+      "meta": "PDF · Faculty-wise · Updated 15 Jul 2026",
+      "href": "/downloads/fee-structure-2026-27.pdf"
+    }
+  ]
+}

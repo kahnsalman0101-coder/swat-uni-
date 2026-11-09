@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "source": "https://www.uswat.edu.pk/ (public announcements)",
+    "note": "Seeded from University of Swat public announcements. Dates are display strings — confirm against the Registrar Office release before go-live.",
+    "page": "Dispatches — the university newsroom"
+  },
+  "news": [
+    {
+      "id": "nsct-2026-inamullah",
+      "date": "2026-09-18",
+      "dateLabel": "18 SEP 2026",
+      "tag": "Achievement",
+      "title": "Inamullah wins the National Skills Competition & Technology (NSCT) 2026",
+      "excerpt": "A University of Swat student takes first place at NSCT 2026, the national skills and technology competition, against finalists drawn from universities across Pakistan.",
+      "featured": true
+    },
+    {
+      "id": "geneva-gold-medal",
+      "date": "2026-04-11",
+      "dateLabel": "11 APR 2026",
+      "tag": "Research",
+      "title": "Dr. Aziz Ahmad awarded a Gold Medal at the Geneva International Exhibition of Inventions",
+      "excerpt": "Faculty research from the University of Swat is recognised with a Gold Medal in Geneva — international validation for the university's applied research agenda.",
+      "featured": true
+    },
+    {
+      "id": "vc-appointment",
+      "date": "2026-06-02",
+      "dateLabel": "02 JUN 2026",
+      "tag": "Leadership",
+      "title": "Prof. Dr. Muhammad Qasim appointed Vice Chancellor, University of Swat",
+      "excerpt": "Prof. Dr. Muhammad Qasim assumes charge as Vice Chancellor, setting out a reform agenda built on research integrity, accreditation and student welfare.",
+      "featured": false
+    },
+    {
+      "id": "fall-2026-admissions",
+      "date": "2026-07-15",
+      "dateLabel": "15 JUL 2026",
+      "tag": "Admissions",
+      "title": "Fall 2026 admissions open across 7 faculties, 30 departments and 77 programs",
+      "excerpt": "Online applications are open for BS, BBA, LLB, MA, MSc, MS, MPhil and PhD programs. Standard and Self-Finance seats are offered on a merit basis.",
+      "featured": true
+    },
+    {
+      "id": "69th-syndicate",
+      "date": "2026-05-20",
+      "dateLabel": "20 MAY 2026",
+      "tag": "Governance",
+      "title": "69th Syndicate Meeting approves academic and administrative reforms",
+      "excerpt": "The 69th Syndicate meeting approves new academic regulations, faculty development packages and campus infrastructure upgrades at Charbagh.",
+      "featured": false
+    },
+    {
+      "id": "hec-oric-statement",
+      "date": "2026-03-09",
+      "dateLabel": "09 MAR 2026",
+      "tag": "HEC",
+      "title": "HEC recognises the University of Swat ORIC for research commercialisation",
+      "excerpt": "The Higher Education Commission acknowledges the Office of Research, Innovation and Commercialisation for strengthening university–industry linkages in Malakand Division.",
+      "featured": false
+    }
+  ]
+}

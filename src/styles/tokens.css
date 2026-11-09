@@ -1,0 +1,135 @@
+/* ==========================================================================
+   tokens.css — University of Swat design system
+   "Where the Mountains Meet the Future"
+   Single source of truth: colour, type, space, motion, elevation, z-index.
+   ========================================================================== */
+
+:root {
+  /* ---------- Brand palette (5 core colours) ---------- */
+  --pine: #0a2e23;
+  --pine-900: #072019;
+  --pine-800: #0f3a2c;
+  --pine-700: #164a38;
+  --pine-600: #1e5c46;
+  --gold: #d4a24c;
+  --gold-600: #b8863a;
+  --gold-400: #e2bd79;
+  --gold-200: #efdcb7;
+  --sage: #a8c0a0;
+  --sage-600: #7d9a75;
+  --glacier: #f4f1ea;
+  --glacier-200: #e8e3d8;
+  --glacier-300: #d8d1c2;
+  --ink: #141a17;
+
+  /* ---------- Semantic tokens (light = default) ---------- */
+  --bg: var(--glacier);
+  --bg-alt: #efeade;
+  --bg-elevated: #ffffff;
+  --bg-deep: var(--pine);
+  --text: var(--ink);
+  --text-strong: #0b0f0d;
+  --text-muted: #5b6660;
+  --text-invert: var(--glacier);
+  --text-invert-muted: rgba(244, 241, 234, 0.68);
+  --border: rgba(20, 26, 23, 0.14);
+  --border-strong: rgba(20, 26, 23, 0.26);
+  --border-invert: rgba(244, 241, 234, 0.18);
+  --accent: var(--gold);
+  --accent-ink: var(--pine);
+  --focus: var(--gold);
+  --glass-bg: rgba(244, 241, 234, 0.72);
+  --glass-bg-dark: rgba(10, 46, 35, 0.66);
+  --glass-border: rgba(244, 241, 234, 0.34);
+  --overlay: rgba(7, 32, 25, 0.62);
+
+  /* ---------- Typography ---------- */
+  --font-display: 'Fraunces', 'Iowan Old Style', 'Times New Roman', serif;
+  --font-sans: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --fs-hero: clamp(3rem, 8vw, 7rem);
+  --fs-display: clamp(2.25rem, 5.2vw, 4.5rem);
+  --fs-h1: clamp(2rem, 4vw, 3.5rem);
+  --fs-h2: clamp(1.6rem, 2.9vw, 2.6rem);
+  --fs-h3: clamp(1.25rem, 1.8vw, 1.65rem);
+  --fs-body-lg: clamp(1.05rem, 1.25vw, 1.25rem);
+  --fs-body: clamp(0.98rem, 1.05vw, 1.075rem);
+  --fs-small: 0.875rem;
+  --fs-micro: 0.6875rem;
+  --fs-numeral: clamp(6.5rem, 14vw, 12.5rem);
+  --fs-wordmark: clamp(3.5rem, 12vw, 6.25rem);
+
+  --lh-tight: 0.94;
+  --lh-snug: 1.08;
+  --lh-body: 1.68;
+  --tracking-mono: 0.28em;
+  --tracking-tight: -0.03em;
+
+  /* ---------- Spacing & layout ---------- */
+  --space-section: clamp(96px, 12vw, 192px);
+  --space-section-sm: clamp(64px, 8vw, 112px);
+  --gutter: clamp(20px, 4vw, 56px);
+  --container: 1360px;
+  --container-narrow: 880px;
+  --rail-w: 58px;
+  --utilrail-h: 34px;
+  --nav-h: 76px;
+  --radius-xs: 4px;
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* ---------- Motion ---------- */
+  --dur-fast: 160ms;
+  --dur: 320ms;
+  --dur-slow: 620ms;
+  --dur-marquee: 34s;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ---------- Elevation ---------- */
+  --shadow-xs: 0 1px 2px rgba(7, 32, 25, 0.06);
+  --shadow-sm: 0 6px 18px -8px rgba(7, 32, 25, 0.22);
+  --shadow: 0 18px 48px -22px rgba(7, 32, 25, 0.32);
+  --shadow-lg: 0 40px 90px -40px rgba(7, 32, 25, 0.44);
+  --shadow-gold: 0 0 0 1px rgba(212, 162, 76, 0.55), 0 18px 44px -20px rgba(212, 162, 76, 0.45);
+
+  /* ---------- Z-index scale ---------- */
+  --z-grain: 60;
+  --z-siderail: 70;
+  --z-marquee: 75;
+  --z-nav: 80;
+  --z-utilrail: 85;
+  --z-overlay: 90;
+  --z-cursor: 100;
+  --z-boot: 120;
+
+  /* ---------- Derived helpers ---------- */
+  --grain-opacity: 0.42;
+  --clip-reveal: inset(0 0 0 0);
+}
+
+/* ---------- Dark theme: the mountains after dusk ---------- */
+[data-theme='dark'] {
+  --bg: #061a15;
+  --bg-alt: #0a271f;
+  --bg-elevated: #0d2f26;
+  --bg-deep: #04120e;
+  --text: #e9e4d8;
+  --text-strong: #f7f4ec;
+  --text-muted: #9aaba2;
+  --text-invert: var(--pine);
+  --text-invert-muted: rgba(10, 46, 35, 0.7);
+  --border: rgba(244, 241, 234, 0.16);
+  --border-strong: rgba(244, 241, 234, 0.3);
+  --border-invert: rgba(10, 46, 35, 0.2);
+  --glass-bg: rgba(10, 46, 35, 0.62);
+  --glass-border: rgba(244, 241, 234, 0.2);
+  --overlay: rgba(4, 18, 14, 0.7);
+  --shadow: 0 18px 48px -22px rgba(0, 0, 0, 0.7);
+  --shadow-lg: 0 40px 90px -40px rgba(0, 0, 0, 0.8);
+  --grain-opacity: 0.3;
+}

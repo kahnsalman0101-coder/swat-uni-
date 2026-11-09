@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0A2E23" />
+    <title>University of Swat — Where the Mountains Meet the Future</title>
+    <meta
+      name="description"
+      content="University of Swat: ranked among the world's most innovative universities (WURI 2025 Top 40 Global) and #1 in Khyber Pakhtunkhwa. Explore 7 faculties, 30 departments and 77 programs in Charbagh, Swat."
+    />
+    <link rel="canonical" href="https://www.uswat.edu.pk/" />
+
+    <!-- Fonts: preconnect + preload (Fraunces display / Satoshi UI / JetBrains Mono micro-labels) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="University of Swat" />
+    <meta property="og:title" content="University of Swat — Where the Mountains Meet the Future" />
+    <meta
+      property="og:description"
+      content="A university built by mountains, for the future. WURI 2025 Top 40 Global · #1 in Khyber Pakhtunkhwa · Admissions open for Fall 2026."
+    />
+    <meta property="og:url" content="https://www.uswat.edu.pk/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="University of Swat — Where the Mountains Meet the Future" />
+    <meta
+      name="twitter:description"
+      content="A university built by mountains, for the future. WURI 2025 Top 40 Global · #1 in Khyber Pakhtunkhwa."
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Boot loader: SVG mountain glyph, removed once React paints -->
+    <div id="boot-loader" role="status" aria-label="Loading University of Swat">
+      <svg viewBox="0 0 120 60" width="120" height="60" aria-hidden="true">
+        <path
+          d="M4 54 L34 16 L50 34 L64 8 L88 40 L100 30 L116 54 Z"
+          fill="none"
+          stroke="#D4A24C"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+        <circle cx="64" cy="8" r="2.4" fill="#D4A24C" />
+      </svg>
+      <span>UNIVERSITY OF SWAT</span>
+    </div>
+    <style>
+      #boot-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        background: #0a2e23;
+        color: #f4f1ea;
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 11px;
+        letter-spacing: 0.32em;
+        animation: boot-pulse 1.8s ease-in-out infinite;
+      }
+      #boot-loader svg {
+        animation: boot-float 2.4s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+      }
+      @keyframes boot-pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.55;
+        }
+      }
+      @keyframes boot-float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-6px);
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #boot-loader,
+        #boot-loader svg {
+          animation: none;
+        }
+      }
+    </style>
+
+    <noscript>
+      <div
+        style="
+          position: fixed;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          background: #0a2e23;
+          color: #f4f1ea;
+          font-family: system-ui, sans-serif;
+          padding: 24px;
+          text-align: center;
+        "
+      >
+        <p>
+          University of Swat requires JavaScript. Please enable it, or contact
+          <a style="color: #d4a24c" href="mailto:registrar@uswat.edu.pk">registrar@uswat.edu.pk</a>.
+        </p>
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
